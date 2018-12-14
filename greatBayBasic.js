@@ -130,8 +130,7 @@ function bidAuction() {
 						}
 					);
 				}
-				else {
-					// bid wasn't high enough, so apologize and start over
+				else {//to low
 					console.log("Your bid was too low. Try again...");
 					start();
 				}
